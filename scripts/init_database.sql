@@ -1,19 +1,19 @@
 USE MASTER;
 GO
 
--- Drop and Recreate the 'Portfolio Project' database
-IF EXISTS (SELECT 1 FROM sys.databases WHERE NAME = 'Portfolio Project')
+-- Drop and Recreate the 'covid_db' database
+IF EXISTS (SELECT 1 FROM sys.databases WHERE NAME = 'covid_db')
 BEGIN 
-	ALTER DATABASE Portfolio Project SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-	DROP DATABASE Portfolio Project;
+	ALTER DATABASE covid_db SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	DROP DATABASE covid_db;
 END;
 GO
 
--- Create The 'Portfolio Project' database
-CREATE DATABASE Portfolio Project;
+-- Create The 'covid_db' database
+CREATE DATABASE covid_db;
 GO
 
-USE Portfolio Project
+USE covid_db
 GO
 
 -- Create Schemas
