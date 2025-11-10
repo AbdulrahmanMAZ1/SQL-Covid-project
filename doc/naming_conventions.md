@@ -3,12 +3,12 @@
 This document outlines the naming conventions used for schemas, tables, views, columns, and other objects in the data warehouse.
 ## **Table of contents**
 
-1. [General Principles](#general-priciples)
+1. [General Principles](#general-pricniples)
 2. [Table Naming Conventions](#table-naming-conventions)
     - [Bronze Rules](#bronze-rules)
     - [Silver Rules](#silver-rules)
     - [Gold Rules](#gold-rules)
-3. [Column Naming Conventions](#colum-naming-conventions)
+3. [Column Naming Conventions](#column-naming-conventions)
     - [Surrogate Keys](#surrogate-keys)
     - [Techniacal columns](#technical-columns)
 4. [Stored Procedure](#stored-procedure)
