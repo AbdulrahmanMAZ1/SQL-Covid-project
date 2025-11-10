@@ -10,7 +10,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
     - [Gold Rules](#gold-rules)
 3. [Column Naming Conventions](#column-naming-conventions)
     - [Surrogate Keys](#surrogate-keys)
-    - [Techniacal columns](#technical-columns)
+    - [Technical columns](#technical-columns)
 4. [Stored Procedure](#stored-procedure)
 ---
 ## **General Principles**
