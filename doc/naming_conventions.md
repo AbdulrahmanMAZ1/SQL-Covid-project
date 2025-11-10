@@ -20,8 +20,15 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ## Table Naming Conventions
 
 ### **Bronze Rules**
-- All names must start with the source system name, and table names must match their original names without renaming
+- All names must start with the source system name, and table names must match their original names without renaming.
 - **`<sourcesystem>_<entity>`**
-- `<sourcesystem>`: Name of the source system (e.g.,`hdp`,`vac`)
-- `<entity>`: Exact table name from the source system
-- Example: `vac_covid_deaths` → covid information from the VAC system
+- `<sourcesystem>`: Name of the source system (e.g.,`hdp`,`vac`).
+- `<entity>`: Exact table name from the source system.
+- Example: `vac_covid_deaths` → covid information from the VAC system.
+
+### Silver Rules
+- All names must start with the source system name, and table names must match their original names without renaming.
+- **`<sourcesystem>_<entity>`**
+- `<sourcesystem>`: Name of the source system (e.g.,`hdp`,`vac`).
+- `<entity>`: Exact table name from the source system.
+- Example: `vac_covid_deaths` → covid information from the VAC system.
