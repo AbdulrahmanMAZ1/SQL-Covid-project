@@ -1,1 +1,1 @@
-# SQL-Covid-project
+# SQL-Covid-Data-Analysis-project
