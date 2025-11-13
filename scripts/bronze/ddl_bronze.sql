@@ -62,8 +62,7 @@ GO
 IF OBJECT_ID ('bronze.vac_covid_deaths' , 'U') IS NOT NULL
     DROP TABLE bronze.vac_covid_deaths;
 GO
-
-
+  
 CREATE TABLE bronze.vac_covid_deaths
 (
   iso_code NVARCHAR(10) NULL,
